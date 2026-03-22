@@ -250,7 +250,7 @@ def build_demo(batch: str, max_images: int):
 <header>
   <div>
     <h1>Robot-Navigable City &nbsp;·&nbsp; Sidewalk Accessibility Map</h1>
-    <p>Silver Lake / Atwater Village, Los Angeles &nbsp;·&nbsp; Batch 1</p>
+    <p>Silver Lake / Atwater Village, Los Angeles &nbsp;·&nbsp; Batch 1 &nbsp;·&nbsp; <a href="https://github.com/nandiyang/robot-navigable-city" target="_blank" style="color:#888; text-decoration:underline;">GitHub</a></p>
   </div>
   <div class="legend">
     <div class="legend-item">
