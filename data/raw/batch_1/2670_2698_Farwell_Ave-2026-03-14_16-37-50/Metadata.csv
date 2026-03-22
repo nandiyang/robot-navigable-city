@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation,platform version,fusion
+3,iPhone 15,1773506270925,2026-03-14_16-37-50,America/Los_Angeles,ios,1.54,1de57a29-e5a8-4de5-85b1-80f1e752e5f5,Orientation|Location|Camera|Annotation,10|0|10000|,false,26.3.1,system

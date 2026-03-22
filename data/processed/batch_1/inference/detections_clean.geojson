@@ -1,0 +1,1330 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2619852975452,
+          34.10669626066591
+        ]
+      },
+      "properties": {
+        "frame_file": "2715_Glendale_00027.jpg",
+        "session": "2715_Glendale_Blvd-2026-03-14_16-29-52",
+        "class_name": "obstacle",
+        "confidence": 0.9874,
+        "altitude": 95.97612835286458,
+        "speed": 1.3300000429153154,
+        "bearing": 111.40885474495016,
+        "bbox": [
+          382.7,
+          8.1,
+          842.3,
+          229.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2598284914012,
+          34.106588560456665
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00050.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.9677,
+        "altitude": 102.33993207125695,
+        "speed": 1.0227479099804384,
+        "bearing": 47.0205853030875,
+        "bbox": [
+          0.0,
+          2.5,
+          450.3,
+          413.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2621804309777,
+          34.10678587985769
+        ]
+      },
+      "properties": {
+        "frame_file": "2715_Glendale_00014.jpg",
+        "session": "2715_Glendale_Blvd-2026-03-14_16-29-52",
+        "class_name": "obstacle",
+        "confidence": 0.9621,
+        "altitude": 94.70075194033942,
+        "speed": 0.9088239708749444,
+        "bearing": 122.24026213096538,
+        "bbox": [
+          583.0,
+          95.2,
+          725.0,
+          158.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.261797636071,
+          34.107861593750286
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00046.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.9619,
+        "altitude": 106.15637121831344,
+        "speed": 1.0145844096848715,
+        "bearing": 290.7492618293237,
+        "bbox": [
+          1.9,
+          314.0,
+          475.2,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26061057731236,
+          34.10736042463049
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00047.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.954,
+        "altitude": 107.82762785555704,
+        "speed": 1.198738649690798,
+        "bearing": 294.63527957709846,
+        "bbox": [
+          161.9,
+          407.6,
+          448.3,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26242714424852,
+          34.10812876957471
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00017.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.9433,
+        "altitude": 107.3187478807742,
+        "speed": 1.2300000190734632,
+        "bearing": 280.0328246621217,
+        "bbox": [
+          0.0,
+          331.5,
+          450.7,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26150140306918,
+          34.10773491879677
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00021.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.9397,
+        "altitude": 105.97217040314392,
+        "speed": 1.08681219753881,
+        "bearing": 320.6297203482304,
+        "bbox": [
+          398.3,
+          67.5,
+          550.5,
+          368.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26208883440782,
+          34.10673063077777
+        ]
+      },
+      "properties": {
+        "frame_file": "2715_Glendale_00020.jpg",
+        "session": "2715_Glendale_Blvd-2026-03-14_16-29-52",
+        "class_name": "obstacle",
+        "confidence": 0.9375,
+        "altitude": 95.01382219800354,
+        "speed": 1.3799999952315958,
+        "bearing": 136.8098174826511,
+        "bbox": [
+          549.9,
+          34.3,
+          737.6,
+          133.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26279103576296,
+          34.107038225628145
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00065.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "obstacle",
+        "confidence": 0.9365,
+        "altitude": 96.53425048102548,
+        "speed": 1.0553541636755923,
+        "bearing": 120.41373139233524,
+        "bbox": [
+          846.0,
+          360.3,
+          988.9,
+          628.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26042110818965,
+          34.105872403813315
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00034.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.9363,
+        "altitude": 93.5766531728756,
+        "speed": 0.5292474166523227,
+        "bearing": 95.57893334565142,
+        "bbox": [
+          412.7,
+          102.2,
+          578.1,
+          354.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26270699160192,
+          34.108280243017944
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00043.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.9324,
+        "altitude": 109.58523057614548,
+        "speed": 1.1614736950968976,
+        "bearing": 300.80055614155884,
+        "bbox": [
+          362.7,
+          411.4,
+          544.9,
+          590.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2613672997442,
+          34.10765715493887
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00009.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.9214,
+        "altitude": 105.32296551897898,
+        "speed": 1.100000023841858,
+        "bearing": 318.76945375996905,
+        "bbox": [
+          485.8,
+          88.7,
+          597.2,
+          390.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2598554087047,
+          34.10555363734294
+        ]
+      },
+      "properties": {
+        "frame_file": "2670_2698_00015.jpg",
+        "session": "2670_2698_Farwell_Ave-2026-03-14_16-37-50",
+        "class_name": "obstacle",
+        "confidence": 0.9149,
+        "altitude": 88.49574326215681,
+        "speed": 0.8600000143051068,
+        "bearing": 8.789063298532284,
+        "bbox": [
+          338.7,
+          198.1,
+          484.9,
+          385.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.260134500368,
+          34.10716267732651
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00004.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.9135,
+        "altitude": 109.51595064781112,
+        "speed": 2.7100000381469727,
+        "bearing": 312.27573496484143,
+        "bbox": [
+          402.8,
+          248.9,
+          554.2,
+          468.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26202024057407,
+          34.10796111473018
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00066.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.9108,
+        "altitude": 105.0118340394604,
+        "speed": 0.9698058457599248,
+        "bearing": 298.8918979424214,
+        "bbox": [
+          457.8,
+          485.1,
+          686.1,
+          578.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26041564591895,
+          34.107252370300664
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00030.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.9027,
+        "altitude": 106.9469152031479,
+        "speed": 1.1996645345375212,
+        "bearing": 295.5984609010599,
+        "bbox": [
+          0.0,
+          0.0,
+          450.1,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2605055852576,
+          34.107312176980535
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00038.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.8949,
+        "altitude": 108.10185353614465,
+        "speed": 1.2083068764317983,
+        "bearing": 299.9287723006275,
+        "bbox": [
+          0.0,
+          0.0,
+          366.2,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2602553839385,
+          34.10718706108969
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00017.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.8942,
+        "altitude": 108.43429793225069,
+        "speed": 1.0031215893945906,
+        "bearing": 301.5272928554997,
+        "bbox": [
+          429.4,
+          148.6,
+          557.3,
+          405.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26330529939176,
+          34.107337317646156
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00018.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "obstacle",
+        "confidence": 0.8919,
+        "altitude": 96.32034038996603,
+        "speed": 1.1235815857823706,
+        "bearing": 144.45176126254086,
+        "bbox": [
+          651.7,
+          0.0,
+          765.7,
+          380.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2598768467133,
+          34.106456900834026
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00036.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.8825,
+        "altitude": 99.55625782159412,
+        "speed": 0.7796748094527238,
+        "bearing": 132.3379055952078,
+        "bbox": [
+          712.9,
+          4.9,
+          818.2,
+          73.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26229827722206,
+          34.106829322329716
+        ]
+      },
+      "properties": {
+        "frame_file": "2715_Glendale_00005.jpg",
+        "session": "2715_Glendale_Blvd-2026-03-14_16-29-52",
+        "class_name": "obstacle",
+        "confidence": 0.8782,
+        "altitude": 95.82203788319276,
+        "speed": 0.8906379291493364,
+        "bearing": 123.545527637211,
+        "bbox": [
+          594.1,
+          13.9,
+          671.1,
+          56.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26033105587916,
+          34.10581197691616
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00043.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.8732,
+        "altitude": 93.4314305152913,
+        "speed": 1.87953068385766,
+        "bearing": 123.62619856094592,
+        "bbox": [
+          5.1,
+          366.0,
+          390.5,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26260281348692,
+          34.10822807614016
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00034.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.8663,
+        "altitude": 106.29425020568824,
+        "speed": 1.2593445358516584,
+        "bearing": 311.6448748794882,
+        "bbox": [
+          566.6,
+          0.0,
+          614.1,
+          156.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26189787178376,
+          34.107900365402216
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00054.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.8653,
+        "altitude": 106.43952671850816,
+        "speed": 1.1425950376611762,
+        "bearing": 293.56894247578924,
+        "bbox": [
+          541.5,
+          0.0,
+          626.1,
+          175.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26342845332928,
+          34.10793313189137
+        ]
+      },
+      "properties": {
+        "frame_file": "2748_2756_00054.jpg",
+        "session": "2748_2756_Waverly_Dr-2026-03-14_16-11-39",
+        "class_name": "obstacle",
+        "confidence": 0.8628,
+        "altitude": 100.4058631481781,
+        "speed": 1.300817441572422,
+        "bearing": 173.0076527019875,
+        "bbox": [
+          0.0,
+          243.6,
+          481.0,
+          718.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26293525915048,
+          34.1083795843294
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00064.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.8594,
+        "altitude": 107.99657438192207,
+        "speed": 0.9954455162282538,
+        "bearing": 297.937005251183,
+        "bbox": [
+          430.0,
+          0.0,
+          612.5,
+          397.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26017562016914,
+          34.105669198138344
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00061.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.8563,
+        "altitude": 91.74576397885548,
+        "speed": 1.549832728436098,
+        "bearing": 144.17450292570223,
+        "bbox": [
+          580.6,
+          285.9,
+          628.4,
+          391.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26232673365868,
+          34.10808546960605
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00009.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.8516,
+        "altitude": 106.14961044141788,
+        "speed": 1.4407242511232738,
+        "bearing": 302.80694968686566,
+        "bbox": [
+          574.2,
+          0.0,
+          641.0,
+          90.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26340974668622,
+          34.10782297143453
+        ]
+      },
+      "properties": {
+        "frame_file": "2748_2756_00064.jpg",
+        "session": "2748_2756_Waverly_Dr-2026-03-14_16-11-39",
+        "class_name": "obstacle",
+        "confidence": 0.8495,
+        "altitude": 98.74962296692728,
+        "speed": 1.1520258976251567,
+        "bearing": 173.17277809903362,
+        "bbox": [
+          353.7,
+          0.0,
+          538.3,
+          383.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26169655256726,
+          34.10781234900418
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00037.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.8413,
+        "altitude": 107.55588383679373,
+        "speed": 1.019335898621576,
+        "bearing": 298.3539023980498,
+        "bbox": [
+          550.9,
+          199.1,
+          604.7,
+          279.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2612118099686,
+          34.10759112721547
+        ]
+      },
+      "properties": {
+        "frame_file": "2660_Waverly_00099.jpg",
+        "session": "2660_Waverly_Dr-2026-03-14_16-43-29",
+        "class_name": "obstacle",
+        "confidence": 0.8395,
+        "altitude": 105.67765608166684,
+        "speed": 1.017576943853728,
+        "bearing": 296.00861912903093,
+        "bbox": [
+          559.7,
+          166.9,
+          588.7,
+          251.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25987764548276,
+          34.106334498135745
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00026.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.8384,
+        "altitude": 95.87823099741226,
+        "speed": 0.7900000214576661,
+        "bearing": 357.8906248232948,
+        "bbox": [
+          605.1,
+          10.8,
+          671.4,
+          76.2
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26220126358368,
+          34.10802495326706
+        ]
+      },
+      "properties": {
+        "frame_file": "2706_Waverly_00082.jpg",
+        "session": "2706_Waverly_Dr-2026-03-14_16-46-00",
+        "class_name": "obstacle",
+        "confidence": 0.8245,
+        "altitude": 108.8370314599406,
+        "speed": 0.8452441938678685,
+        "bearing": 296.09169072582995,
+        "bbox": [
+          586.7,
+          0.1,
+          633.0,
+          173.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26283540827924,
+          34.1083209004956
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00054.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.8228,
+        "altitude": 107.96560619283214,
+        "speed": 0.9992826026363668,
+        "bearing": 312.2740690474236,
+        "bbox": [
+          571.8,
+          171.7,
+          603.0,
+          281.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26009717594542,
+          34.105603384672925
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00070.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.8179,
+        "altitude": 92.37420448756332,
+        "speed": 1.0963261796934671,
+        "bearing": 135.8731951734941,
+        "bbox": [
+          206.9,
+          567.5,
+          314.6,
+          717.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26000016731574,
+          34.107071933752714
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00107.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.8073,
+        "altitude": 110.90473722683384,
+        "speed": 0.6525788529529157,
+        "bearing": 105.738360142971,
+        "bbox": [
+          591.6,
+          4.8,
+          678.2,
+          204.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2605000118,
+          34.10596584735967
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00026.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.747,
+        "altitude": 90.97710955148106,
+        "speed": 1.1946354610523349,
+        "bearing": 131.3400319440148,
+        "bbox": [
+          573.0,
+          120.9,
+          612.8,
+          192.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26059103194994,
+          34.10603332517506
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00017.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "obstacle",
+        "confidence": 0.7359,
+        "altitude": 91.80871490181782,
+        "speed": 1.2699999809264884,
+        "bearing": 132.87482609316595,
+        "bbox": [
+          558.3,
+          53.8,
+          580.8,
+          117.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2634789690705,
+          34.10802169427032
+        ]
+      },
+      "properties": {
+        "frame_file": "2748_2756_00046.jpg",
+        "session": "2748_2756_Waverly_Dr-2026-03-14_16-11-39",
+        "class_name": "obstacle",
+        "confidence": 0.7186,
+        "altitude": 100.64854252389186,
+        "speed": 1.1886386099902844,
+        "bearing": 161.12793904073757,
+        "bbox": [
+          637.4,
+          51.1,
+          665.2,
+          112.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26289410279516,
+          34.10707766449341
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00057.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "obstacle",
+        "confidence": 0.7045,
+        "altitude": 96.17356747747142,
+        "speed": 0.6308536372933203,
+        "bearing": 118.55431876132336,
+        "bbox": [
+          640.9,
+          51.5,
+          677.9,
+          102.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25983967286447,
+          34.10678725974328
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00068.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.7028,
+        "altitude": 104.79944439455204,
+        "speed": 1.0684591472643876,
+        "bearing": 6.689779059530789,
+        "bbox": [
+          0.0,
+          179.9,
+          237.6,
+          719.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2598425116764,
+          34.106932697516356
+        ]
+      },
+      "properties": {
+        "frame_file": "2622_Farwell_00085.jpg",
+        "session": "2622_Farwell_Ave-2026-03-14_16-40-32",
+        "class_name": "obstacle",
+        "confidence": 0.6946,
+        "altitude": 108.740495818839,
+        "speed": 1.0637113867492165,
+        "bearing": 312.43690837573666,
+        "bbox": [
+          0.7,
+          232.2,
+          412.4,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26335817954126,
+          34.107472170733224
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00005.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "obstacle",
+        "confidence": 0.6941,
+        "altitude": 97.6124416954438,
+        "speed": 1.238823693497225,
+        "bearing": 171.80335860248454,
+        "bbox": [
+          434.2,
+          66.8,
+          463.8,
+          188.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26304396084164,
+          34.10839806656355
+        ]
+      },
+      "properties": {
+        "frame_file": "2740_Waverly_00074.jpg",
+        "session": "2740_Waverly_Dr-2026-03-14_16-48-36",
+        "class_name": "obstacle",
+        "confidence": 0.6839,
+        "altitude": 105.62037887312492,
+        "speed": 0.4842805773416481,
+        "bearing": 48.343271580193075,
+        "bbox": [
+          157.0,
+          14.9,
+          583.6,
+          720.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26300118324971,
+          34.10713764896343
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00045.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "obstacle",
+        "confidence": 0.5947,
+        "altitude": 96.56892192372212,
+        "speed": 1.1498140108073591,
+        "bearing": 115.74615401698698,
+        "bbox": [
+          655.1,
+          82.9,
+          667.6,
+          101.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26340959701402,
+          34.10780913131265
+        ]
+      },
+      "properties": {
+        "frame_file": "2748_2756_00065.jpg",
+        "session": "2748_2756_Waverly_Dr-2026-03-14_16-11-39",
+        "class_name": "path_discontinuity",
+        "confidence": 0.9723,
+        "altitude": 98.85882369883812,
+        "speed": 1.2211758965364994,
+        "bearing": 168.9665566723847,
+        "bbox": [
+          489.8,
+          101.6,
+          729.1,
+          246.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.260216979027,
+          34.1057151623504
+        ]
+      },
+      "properties": {
+        "frame_file": "2647_Glendale_00056.jpg",
+        "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+        "class_name": "path_discontinuity",
+        "confidence": 0.9293,
+        "altitude": 92.2082771363964,
+        "speed": 1.129797997221035,
+        "bearing": 125.92734376580756,
+        "bbox": [
+          523.2,
+          333.7,
+          839.8,
+          465.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25985533010969,
+          34.10560166797158
+        ]
+      },
+      "properties": {
+        "frame_file": "2670_2698_00020.jpg",
+        "session": "2670_2698_Farwell_Ave-2026-03-14_16-37-50",
+        "class_name": "path_discontinuity",
+        "confidence": 0.917,
+        "altitude": 88.95393581001319,
+        "speed": 0.4777855069794111,
+        "bearing": -0.0158063496406611,
+        "bbox": [
+          291.4,
+          442.4,
+          684.2,
+          526.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26309060322404,
+          34.107156970632815
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00040.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "path_discontinuity",
+        "confidence": 0.8671,
+        "altitude": 96.69645377216207,
+        "speed": 1.3181919824800064,
+        "bearing": 114.86376341613716,
+        "bbox": [
+          534.6,
+          284.4,
+          760.8,
+          320.7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26265319701602,
+          34.106987850373045
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00075.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "path_discontinuity",
+        "confidence": 0.8585,
+        "altitude": 97.3326138028828,
+        "speed": 1.067070534409288,
+        "bearing": 117.69543650950298,
+        "bbox": [
+          469.8,
+          408.2,
+          912.7,
+          501.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.26277046526272,
+          34.10703366325
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00067.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "path_discontinuity",
+        "confidence": 0.8299,
+        "altitude": 96.66374373496994,
+        "speed": 0.8443700898431173,
+        "bearing": 114.4077432533356,
+        "bbox": [
+          537.0,
+          119.5,
+          654.9,
+          136.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.25986662273914,
+          34.1054926651728
+        ]
+      },
+      "properties": {
+        "frame_file": "2670_2698_00008.jpg",
+        "session": "2670_2698_Farwell_Ave-2026-03-14_16-37-50",
+        "class_name": "path_discontinuity",
+        "confidence": 0.828,
+        "altitude": 88.56307805715905,
+        "speed": 1.010291546250103,
+        "bearing": 129.7265625,
+        "bbox": [
+          627.7,
+          200.0,
+          702.1,
+          219.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2632066407772,
+          34.1072189475273
+        ]
+      },
+      "properties": {
+        "frame_file": "2810_Glendale_00031.jpg",
+        "session": "2810_Glendale_Blvd-2026-03-14_16-20-16",
+        "class_name": "path_discontinuity",
+        "confidence": 0.6563,
+        "altitude": 95.96628167761412,
+        "speed": 0.9916901767111036,
+        "bearing": 116.3131681017342,
+        "bbox": [
+          641.7,
+          148.8,
+          722.4,
+          161.8
+        ]
+      }
+    }
+  ]
+}

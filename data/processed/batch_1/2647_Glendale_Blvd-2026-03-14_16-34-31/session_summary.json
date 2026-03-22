@@ -1,0 +1,16 @@
+{
+  "session": "2647_Glendale_Blvd-2026-03-14_16-34-31",
+  "batch": "batch_1",
+  "device": "iPhone 15",
+  "recording_time": "2026-03-14_16-34-31",
+  "timezone": "America/Los_Angeles",
+  "fps_extracted": 1,
+  "trim_start_s": 2.0,
+  "trim_end_s": 2.0,
+  "total_frames": 97,
+  "frames_in_gps_range": 97,
+  "frames_out_of_range": 0,
+  "lat_center": 34.105784469036,
+  "lon_center": -118.26032181711496,
+  "csv_layout": "flat"
+}

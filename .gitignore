@@ -1,0 +1,32 @@
+# Videos
+data/raw/*/Camera/
+*.mp4
+*.mov
+
+# Model weights
+runs/
+*.pt
+*.pth
+
+# Dataset images
+data/datasets/
+
+# Processed frames
+data/processed/*/frames/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+~
+~$*
