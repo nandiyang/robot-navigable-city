@@ -168,7 +168,16 @@ open data/processed/batch_1/inference/demo.html
 
 ## Research Context
 
-This project is part of ongoing research connecting autonomous robot navigation with urban accessibility design. It is being developed in collaboration with the [MetaUrban](https://metadriverse.github.io/metaurban/) research group at UCLA and contributes to a panel submission at the American Society of Landscape Architects (ASLA) 2025 Annual Conference.
+This is an independent research project exploring the intersection of 
+autonomous robot navigation and urban accessibility design. The work 
+is informed by ongoing conversations with Prof. Bolei Zhou (UCLA) and 
+his MetaUrban research group, whose work on embodied AI in urban 
+environments is closely related.
+
+A panel proposal connecting this research to landscape architecture 
+practice has been submitted to the ASLA Annual Conference (result 
+pending April 2026). This project continues regardless of that outcome.
+
 
 **Related work:**
 - [MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces](https://metadriverse.github.io/metaurban/)
