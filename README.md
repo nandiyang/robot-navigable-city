@@ -189,8 +189,8 @@ pending April 2026). This project continues regardless of that outcome.
 ## Author
 
 **Nandi Yang**
-Landscape Architecture + Machine Learning
-UCLA / Robot-Navigable City Project
+Landscape Architecture + Machine Learning  
+Robot-Navigable City Project
 
 ---
 
