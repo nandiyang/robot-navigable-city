@@ -1,27 +1,45 @@
 # Robot-Navigable City
 
-**AI-powered sidewalk accessibility mapping using autonomous robot navigation data**
+**AI-powered sidewalk accessibility mapping using egocentric smartphone video**
 
-A computer vision pipeline that detects sidewalk accessibility barriers from street-level video, geo-tags each detection to GPS coordinates, and visualizes them as an interactive map. Built at the intersection of landscape architecture, machine learning, and urban robotics.
+A two-stage computer vision pipeline that (1) segments sidewalk boundaries using a pretrained foundation model, then (2) computes perspective-corrected corridor width and detects blockages using monocular depth estimation — producing geo-referenced passability maps with ADA-compliant measurements. Built at the intersection of landscape architecture, machine learning, and urban accessibility.
 
-🗺️ **[Live Demo — Silver Lake / Atwater Village, Los Angeles](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_1/inference/demo.html)**
+🗺️ **[Live Demo — Sidewalk Passability Map](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_2/passability_map.html)** (Silver Lake, Los Angeles)
+
+🗺️ **[Round 1 Demo — Detection Map](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_1/inference/demo.html)**
 
 ---
 
 ## Motivation
 
-Despite decades of ADA standards, sidewalk accessibility barriers persist across American cities. The same infrastructure failures that exclude wheelchair users also prevent autonomous delivery robots from navigating safely. This project leverages that parallel — using robot navigation data as a continuous, scalable diagnostic tool for accessibility mapping.
-
-As robots join bikes and pedestrians as street users, they generate spatial data that reveals decades-old infrastructure failures. This pipeline transforms that data into actionable design tools for more inclusive streets.
+Despite decades of ADA standards, sidewalk accessibility barriers persist across American cities. The same infrastructure failures that exclude wheelchair users also prevent autonomous delivery robots from navigating safely. This project leverages that parallel — using smartphone-collected video and sensor data (structurally analogous to what autonomous sidewalk robots collect) as a continuous, scalable diagnostic tool for accessibility mapping.
 
 ---
 
-## What It Detects
+## Two-Stage Pipeline
 
-| Class | Description |
-|---|---|
-| `obstacle` | Objects blocking the sidewalk corridor — bins, poles, parked bikes, encroaching vegetation |
-| `path_discontinuity` | Vertical drops, uplifted pavement, sudden grade changes that impair wheelchair and robot navigation |
+### Stage 1: Sidewalk Segmentation (pretrained, no training required)
+
+Uses **Mask2Former** pretrained on **Mapillary Vistas** (124 semantic classes including sidewalk, curb, curb cut, utility pole, vegetation, and vehicles) to segment the scene from egocentric iPhone footage. Produces per-pixel class maps identifying walkable surface, obstructions, and street furniture.
+
+### Stage 2a: Corridor Width & Blockage Analysis (rule-based + depth)
+
+Uses **Depth Anything V2** (Metric Outdoor) for monocular depth estimation, then computes perspective-corrected sidewalk corridor width in centimeters at every point. Classifies the corridor as:
+
+| Status | Criteria | Color |
+|---|---|---|
+| Comfortable | Width > 150cm | Green |
+| Constrained | Width 91–150cm | Yellow |
+| Failure | Width < 91.5cm (ADA minimum) | Red |
+
+Detects three types of blockage:
+- **Partial intrusion** — object (car, pole, vegetation) encroaching on sidewalk
+- **Full blockage** — sidewalk completely eliminated by an object
+- **Dead-end** — sidewalk terminates at an impassable barrier
+
+### Stage 2b: Surface Defect Classification (planned)
+
+Texture-based classifier for surface conditions (cracked concrete, tree root uplift, smooth pavement) within the sidewalk mask. This decomposition — geometric passability (computable) vs. surface quality (learnable) — is a core methodological contribution.
 
 ---
 
@@ -30,32 +48,38 @@ As robots join bikes and pedestrians as street users, they generate spatial data
 ```
 Field Recording (iPhone + Sensor Logger)
           ↓
-extract_frames.py     — extract GPS-synced frames at 1 FPS
+extract_frames.py          — extract GPS-synced frames at 1 FPS
           ↓
-merge_gps.py          — merge per-session GPS into master CSV
+merge_gps.py               — merge per-session GPS into master CSV
           ↓
-Roboflow              — manual annotation (obstacle / path_discontinuity)
+sidewalk_seg.py            — Stage 1: Mask2Former segmentation
           ↓
-train.py              — YOLOv8s training on annotated dataset
+sidewalk_width_analysis.py — Stage 2a: depth-corrected width + blockage detection
           ↓
-inference.py          — run model on all frames, join detections to GPS
-          ↓
-postprocess.py        — spatial deduplication (merge within 5m radius)
-          ↓
-visualize_detections.py — draw bounding boxes on detected frames
-          ↓
-build_demo.py         — generate interactive HTML map demo
+build_passability_map.py   — generate interactive HTML passability map
 ```
 
 ---
 
-## Results — Batch 1
+## Results — Round 2 (Two-Stage Pipeline)
 
-- **Location:** Silver Lake / Atwater Village, Los Angeles
-- **Sessions:** 10 walking routes (~15 min total)
-- **Frames:** 947 extracted at 1 FPS
-- **Labels:** 476 annotated frames (2 classes)
-- **Model:** YOLOv8s, 100 epochs
+* **Location:** Silver Lake / Atwater Village, Los Angeles
+* **Sessions:** 33 walking routes
+* **Frames:** 361 analyzed (proportionally sampled across passability classes)
+* **Stage 1 Model:** Mask2Former (Swin-L backbone, Mapillary Vistas pretrained)
+* **Depth Model:** Depth Anything V2 (Metric Outdoor)
+
+Key findings:
+- Foundation model segmentation (Mask2Former/Mapillary Vistas) produces accurate sidewalk boundaries from pedestrian-perspective iPhone footage without any fine-tuning
+- Perspective-corrected width analysis using monocular depth estimation enables real-world measurements (cm) from single images
+- Decomposing traversability into geometric passability + surface quality significantly outperforms end-to-end segmentation approaches (Round 1 baseline)
+
+---
+
+## Results — Round 1 (Baseline)
+
+* **Model:** YOLOv8s, 100 epochs
+* **Classes:** obstacle, path_discontinuity
 
 | Metric | Value |
 |---|---|
@@ -64,19 +88,17 @@ build_demo.py         — generate interactive HTML map demo
 | Precision | 0.875 |
 | Recall | 0.560 |
 
-**Detections (conf ≥ 0.50, deduplicated at 5m):**
-- Obstacles: ~150 unique locations
-- Path discontinuities: ~30 unique locations
+Round 1 demonstrated that end-to-end detection works for obstacles but struggles with passability assessment. A subsequent attempt using YOLOv11-seg for direct traversability segmentation (comfortable/constrained/failure classes) confirmed that a single model cannot simultaneously learn sidewalk geometry and surface quality — motivating the two-stage decomposition in Round 2.
 
 ---
 
 ## Data Collection Protocol
 
-- **Device:** iPhone 15 + Sensor Logger app (GPS + video synchronized)
-- **Method:** Chest-height or stabilized handheld, landscape orientation, 1/3 sky framing
-- **GPS:** Sensor Logger records Location.csv with nanosecond timestamps
-- **Video:** Sensor Logger records to `Camera/` subfolder as `.mp4`
-- **Trim:** First and last 2 seconds removed (camera handling artifacts)
+* **Device:** iPhone + Sensor Logger app (GPS + video synchronized)
+* **Method:** Chest-height handheld, landscape orientation
+* **GPS:** Sensor Logger records Location.csv with nanosecond timestamps
+* **Video:** Recorded to Camera/ subfolder as .mp4
+* **Study area:** Silver Lake and Atwater Village, Los Angeles
 
 ---
 
@@ -85,24 +107,25 @@ build_demo.py         — generate interactive HTML map demo
 ```
 robot-navigable-city/
   scripts/
-    extract_frames.py         — video → GPS-synced frames
-    merge_gps.py              — combine session GPS into master CSV
-    train.py                  — YOLOv8 training
-    inference.py              — detection + GPS join
-    postprocess.py            — spatial deduplication
-    visualize_detections.py   — annotated frame images
-    build_demo.py             — interactive HTML demo
-    clean_roboflow_classes.py — Roboflow dataset cleanup utility
+    # Data preparation
+    extract_frames.py              — video → GPS-synced frames
+    merge_gps.py                   — combine session GPS into master CSV
+
+    # Round 1 (baseline)
+    train.py                       — YOLOv8 training
+    inference.py                   — detection + GPS join
+    postprocess.py                 — spatial deduplication
+    build_demo.py                  — Round 1 interactive HTML demo
+
+    # Round 2 (two-stage pipeline)
+    sidewalk_seg.py                — Stage 1: Mask2Former segmentation
+    sidewalk_width_analysis.py     — Stage 2a: width + blockage analysis
+    build_passability_map.py       — interactive passability map
+
   data/
-    raw/                      — field recordings (not tracked in git)
-      batch_1/
-        <session>/
-          Camera/<video>.mp4
-          Location.csv
-          Metadata.csv
-    processed/                — extracted frames + GPS maps (not tracked in git)
-    datasets/                 — Roboflow YOLOv8 export (not tracked in git)
-  runs/                       — YOLO training outputs (not tracked in git)
+    raw/                           — field recordings (not tracked)
+    processed/                     — frames, seg maps, analysis outputs (not tracked)
+    datasets/                      — Roboflow exports (not tracked)
 ```
 
 ---
@@ -120,77 +143,61 @@ conda activate robot_yolo
 
 # Install dependencies
 pip install ultralytics opencv-python numpy pandas matplotlib \
-            scikit-learn pyyaml tqdm pillow requests
+            scikit-learn pyyaml tqdm pillow requests \
+            torch torchvision transformers imageio scipy
 ```
 
 ---
 
-## Usage
+## Usage — Two-Stage Pipeline
 
 ```bash
-# 1. Extract frames from a batch of field recordings
-python scripts/extract_frames.py
+# Stage 1: Sidewalk segmentation
+python scripts/sidewalk_seg.py
 
-# 2. Merge GPS files into master CSV
-python scripts/merge_gps.py
+# Stage 2a: Width + blockage analysis
+python scripts/sidewalk_width_analysis.py
 
-# 3. Train model (after labeling in Roboflow and downloading dataset)
-python scripts/train.py
+# Build interactive map
+python scripts/build_passability_map.py
 
-# 4. Run inference
-python scripts/inference.py
-
-# 5. Deduplicate detections spatially
-python scripts/postprocess.py
-
-# 6. Generate annotated frames
-python scripts/visualize_detections.py
-
-# 7. Build interactive demo
-python scripts/build_demo.py
-
-# 8. Open demo in browser
-open data/processed/batch_1/inference/demo.html
+# Open map in browser
+open data/processed/round2_labeling/passability_map.html
 ```
 
 ---
 
 ## Roadmap
 
-- [x] Phase 1 — Perception: frame extraction, GPS sync, YOLOv8 detection
-- [ ] Phase 2 — Mapping: route-level safe passage analysis, accessibility scoring
-- [ ] Phase 3 — Recovery: autonomy failure detection, robot-human mirror analysis
-- [ ] Integration with autonomous delivery robot navigation data (Coco Robotics)
-- [ ] Curb ramp detection as positive class
+- [x] Phase 1 — Perception: YOLOv8 obstacle detection (Round 1 baseline)
+- [x] Phase 2a — Foundation model segmentation + rule-based width analysis
+- [ ] Phase 2b — Surface defect classification (cracked/uplifted concrete)
+- [ ] Phase 3 — Route-level safe passage scoring and routing
+- [ ] Integration with autonomous delivery robot navigation data
 - [ ] Comparison with city ADA compliance records
 
 ---
 
 ## Research Context
 
-This is an independent research project exploring the intersection of 
-autonomous robot navigation and urban accessibility design. The work 
-is informed by ongoing conversations with Prof. Bolei Zhou (UCLA) and 
-his MetaUrban research group, whose work on embodied AI in urban 
-environments is closely related.
+This is an independent research project exploring the intersection of autonomous robot navigation and urban accessibility design. The work is informed by ongoing conversations with Prof. Bolei Zhou (UCLA) and his MetaUrban research group, whose work on embodied AI in urban environments is closely related.
 
-A panel proposal connecting this research to landscape architecture 
-practice has been submitted to the ASLA Annual Conference (result 
-pending April 2026). This project continues regardless of that outcome.
-
+A panel proposal connecting this research to landscape architecture practice has been submitted to the ASLA Annual Conference (result pending April 2026).
 
 **Related work:**
-- [MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces](https://metadriverse.github.io/metaurban/)
-- [Urban Robotics Foundation — Public Area Mobile Robots Through a Planner's Lens](https://www.urbanroboticsfoundation.org/post/public-area-mobile-robots-through-a-planner-s-lens)
-- [Streets for All](https://www.streetsforall.org/)
+
+* [MetaUrban: A Simulation Platform for Embodied AI in Urban Spaces](https://metadriverse.github.io/metaurban/)
+* [Urban Robotics Foundation](https://www.urbanroboticsfoundation.org/post/public-area-mobile-robots-through-a-planner-s-lens)
+* [Streets for All](https://www.streetsforall.org/)
+* [LA City Controller — Sidewalk Audit](https://controller.lacity.gov/audits/sidewalks)
 
 ---
 
 ## Author
 
 **Nandi Yang**
-Landscape Architecture + Machine Learning  
-Robot-Navigable City Project
+Landscape Architecture + Machine Learning
+Georgia Institute of Technology
 
 ---
 
