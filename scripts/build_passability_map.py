@@ -31,9 +31,10 @@ DEMO_HTML = os.path.join(PROJECT_ROOT, "data/processed/batch_2/passability_map.h
 
 # ── IMAGE PATH PREFIX ─────────────────────────────────────────────────
 # Relative path from the HTML file to the width analysis images
-# Adjust this based on where you deploy the HTML
-WIDTH_IMG_REL = "../round2_labeling/width_analysis"
-SEG_IMG_REL = "../round2_labeling/segmentation"
+# The HTML lives at data/processed/round2_labeling/passability_map.html
+# Images live at data/processed/round2_labeling/width_analysis/width_*.jpg
+WIDTH_IMG_REL = "width_analysis"
+SEG_IMG_REL = "segmentation"
 
 
 def load_gps_data():
