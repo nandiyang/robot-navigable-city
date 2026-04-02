@@ -4,9 +4,9 @@
 
 A two-stage computer vision pipeline that (1) segments sidewalk boundaries using a pretrained foundation model, then (2) computes perspective-corrected corridor width and detects blockages using monocular depth estimation — producing geo-referenced passability maps with ADA-compliant measurements. Built at the intersection of landscape architecture, machine learning, and urban accessibility.
 
-🗺️ **[Live Demo — Sidewalk Passability Map](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_2/passability_map.html)** (Silver Lake, Los Angeles)
+🗺️ **[Live Demo — Sidewalk Passability Map](https://nandiyang.github.io/robot-navigable-city/data/processed/round2_labeling/passability_map.html)** (Silver Lake, Los Angeles)
 
-🗺️ **[Round 1 Demo — Detection Map](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_1/inference/demo.html)**
+🗺️ **[Round 1 Demo — Obstacle Detection Map](https://nandiyang.github.io/robot-navigable-city/data/processed/demo_combined.html)**
 
 ---
 
