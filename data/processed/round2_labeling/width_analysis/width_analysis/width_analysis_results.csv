@@ -1,0 +1,362 @@
+frame,score,label,min_width_cm,median_width_cm,pinch_points,full_blockages,obstructions
+2600_2668_00010.jpg,100,comfortable,5.300000190734863,320.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2600_2668_00035.jpg,100,comfortable,12.0,290.79998779296875,0,0,fence|wall|vegetation|pole|utility pole|car
+2600_2668_00045.jpg,100,comfortable,126.69999694824219,292.3999938964844,0,0,fence|wall|vegetation|street light|pole|utility pole|trash can|bicycle|car|motorcycle
+2600_2668_00060.jpg,100,comfortable,18.299999237060547,274.79998779296875,0,0,fence|wall|vegetation|fire hydrant|utility pole|trash can|car|motorcycle
+2600_Locksley_00005.jpg,100,comfortable,36.400001525878906,386.6000061035156,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|car
+2600_Locksley_00015.jpg,100,comfortable,12.300000190734863,329.8999938964844,0,0,fence|vegetation|car
+2600_Locksley_00018.jpg,87,comfortable,4.199999809265137,343.1000061035156,2,0,fence|vegetation|car
+2600_Locksley_00019.jpg,75,comfortable,0.8999999761581421,342.0,2,0,fence|vegetation|car
+2600_Locksley_00020.jpg,58,constrained,4.400000095367432,178.3000030517578,2,1,fence|vegetation|car
+2600_Locksley_00022.jpg,100,comfortable,13.899999618530273,242.8000030517578,0,0,wall|vegetation|street light|pole|traffic sign (front)|car
+2600_Locksley_00023.jpg,100,comfortable,5.0,362.29998779296875,0,0,fence|vegetation|traffic sign (front)|car
+2600_Locksley_00024.jpg,100,comfortable,50.400001525878906,293.20001220703125,0,0,fence|vegetation|mailbox|pole|traffic sign (front)|car
+2600_Locksley_00035.jpg,100,comfortable,11.800000190734863,541.5999755859375,0,0,fence|wall|vegetation|pole|utility pole|car
+2600_Locksley_00050.jpg,100,comfortable,85.69999694824219,312.1000061035156,0,0,fence|wall|vegetation|utility pole|trash can|car|motorcycle|truck
+2600_Locksley_00100.jpg,100,comfortable,20.600000381469727,303.0,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2606_Waverly_00005.jpg,100,comfortable,34.599998474121094,315.70001220703125,0,0,fence|wall|vegetation|street light|pole|utility pole|traffic sign (back)|trash can|car|truck
+2606_Waverly_00018.jpg,100,comfortable,7.099999904632568,318.8999938964844,0,0,fence|vegetation|pole|utility pole|bus|car|truck
+2606_Waverly_00025.jpg,100,comfortable,6.300000190734863,353.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle|truck
+2606_Waverly_00030.jpg,96,comfortable,5.300000190734863,360.8999938964844,1,0,wall|vegetation|pole|utility pole|trash can|car
+2606_Waverly_00080.jpg,100,comfortable,33.099998474121094,246.5,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2606_Waverly_00095.jpg,100,comfortable,61.400001525878906,273.8999938964844,0,0,fence|wall|vegetation|street light|pole|utility pole|traffic sign (front)|trash can|car
+2622_Farwell_00110.jpg,100,comfortable,12.5,349.70001220703125,1,0,vegetation|utility pole|traffic sign (front)|car
+2622_Farwell_00112.jpg,94,comfortable,8.199999809265137,300.6000061035156,1,0,wall|vegetation|utility pole|car
+2622_Farwell_00113.jpg,89,comfortable,6.599999904632568,224.10000610351562,1,0,wall|vegetation|utility pole|traffic sign (back)|car
+2622_Farwell_00114.jpg,74,comfortable,2.4000000953674316,159.60000610351562,2,0,fence|vegetation|utility pole|traffic sign (back)|trash can|car
+2622_Farwell_00115.jpg,26,failure,22.899999618530273,142.39999389648438,4,0,fence|wall|vegetation|utility pole|trash can|car
+2626_Locksley_00005.jpg,100,comfortable,67.30000305175781,312.20001220703125,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|car
+2626_Locksley_00015.jpg,100,comfortable,5.800000190734863,358.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|trash can|bus|car
+2626_Locksley_00038.jpg,100,comfortable,15.899999618530273,377.0,2,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|bus|car
+2626_Locksley_00040.jpg,100,comfortable,2.299999952316284,244.3000030517578,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|car
+2626_Locksley_00042.jpg,79,comfortable,1.899999976158142,229.60000610351562,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2626_Locksley_00043.jpg,72,comfortable,3.9000000953674316,244.8000030517578,1,0,fence|wall|vegetation|street light|pole|utility pole|traffic sign (back)|car
+2626_Locksley_00044.jpg,45,constrained,4.599999904632568,185.0,1,0,fence|wall|vegetation|fire hydrant|street light|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2626_Locksley_00045.jpg,0,failure,2.5,72.19999694824219,3,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|car
+2626_Locksley_00054.jpg,100,comfortable,3.4000000953674316,314.3999938964844,0,0,fence|wall|vegetation|pole|utility pole|trash can
+2626_Locksley_00055.jpg,100,comfortable,2.5999999046325684,301.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Locksley_00056.jpg,92,comfortable,11.800000190734863,310.29998779296875,1,0,fence|wall|vegetation|bench|pole|utility pole|trash can|car|truck
+2626_Locksley_00057.jpg,68,constrained,61.099998474121094,158.6999969482422,4,0,fence|guard rail|wall|vegetation|pole|utility pole|trash can|car
+2626_Locksley_00060.jpg,87,comfortable,1.899999976158142,335.20001220703125,2,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|bicycle|car|motorcycle
+2626_Locksley_00062.jpg,72,comfortable,4.0,561.4000244140625,2,1,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Locksley_00070.jpg,100,comfortable,24.399999618530273,286.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|bus|car
+2626_Waverly_00000.jpg,100,comfortable,10.100000381469727,302.1000061035156,1,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2626_Waverly_00003.jpg,91,comfortable,30.899999618530273,272.0,1,0,fence|wall|vegetation|pole|utility pole|trash can|bus|car|truck
+2626_Waverly_00005.jpg,92,comfortable,4.300000190734863,405.79998779296875,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00008.jpg,96,comfortable,3.5,301.70001220703125,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00010.jpg,84,comfortable,101.5,295.5,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00013.jpg,62,constrained,16.299999237060547,281.0,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00015.jpg,26,failure,9.100000381469727,136.5,1,0,fence|wall|vegetation|street light|pole|utility pole|trash can|bicycle|car|motorcycle
+2626_Waverly_00020.jpg,52,constrained,9.199999809265137,285.5,2,0,fence|wall|vegetation|street light|utility pole|trash can|car|truck
+2626_Waverly_00022.jpg,16,failure,11.800000190734863,137.3000030517578,2,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2626_Waverly_00023.jpg,0,failure,36.70000076293945,116.19999694824219,2,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car|trailer|truck
+2626_Waverly_00024.jpg,100,comfortable,25.5,168.3000030517578,0,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car|truck
+2626_Waverly_00025.jpg,100,comfortable,31.399999618530273,221.60000610351562,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2626_Waverly_00028.jpg,100,comfortable,3.200000047683716,386.6000061035156,0,0,fence|wall|vegetation|street light|pole|utility pole|trash can|bicycle|bus|car|truck
+2626_Waverly_00030.jpg,100,comfortable,2.4000000953674316,306.3999938964844,0,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car|motorcycle|truck
+2626_Waverly_00033.jpg,84,comfortable,9.800000190734863,435.79998779296875,1,0,wall|vegetation|pole|utility pole|trash can|bicycle|bus|car|truck
+2626_Waverly_00034.jpg,80,comfortable,9.0,543.2000122070312,2,0,wall|vegetation|pole|utility pole|trash can|bus|car|truck
+2626_Waverly_00035.jpg,57,constrained,8.300000190734863,348.0,1,1,fence|wall|vegetation|utility pole|trash can|bus|car|truck
+2626_Waverly_00036.jpg,41,constrained,2.5,285.6000061035156,3,1,fence|wall|vegetation|utility pole|trash can|car
+2626_Waverly_00050.jpg,83,comfortable,25.399999618530273,256.20001220703125,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2626_Waverly_00053.jpg,69,constrained,10.100000381469727,243.1999969482422,1,0,fence|guard rail|wall|vegetation|pole|utility pole|traffic sign (back)|car
+2626_Waverly_00055.jpg,50,constrained,60.400001525878906,237.60000610351562,1,1,fence|barrier|wall|vegetation|fire hydrant|pole|utility pole|car|truck
+2626_Waverly_00058.jpg,36,failure,34.099998474121094,140.39999389648438,1,0,fence|guard rail|wall|vegetation|fire hydrant|pole|car
+2626_Waverly_00060.jpg,0,failure,37.900001525878906,122.4000015258789,1,1,fence|wall|vegetation|fire hydrant|pole|car
+2626_Waverly_00070.jpg,91,comfortable,5.599999904632568,401.5,0,0,fence|wall|vegetation|utility pole|traffic sign (back)|trash can|car
+2626_Waverly_00073.jpg,40,constrained,3.799999952316284,160.6999969482422,3,1,wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00075.jpg,17,failure,2.9000000953674316,132.1999969482422,2,1,fence|wall|vegetation|utility pole|trash can|car
+2626_Waverly_00077.jpg,32,failure,9.199999809265137,148.6999969482422,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2626_Waverly_00080.jpg,34,failure,3.9000000953674316,136.8000030517578,1,0,wall|vegetation|mailbox|pole|utility pole|trash can|car
+2626_Waverly_00090.jpg,100,comfortable,29.799999237060547,389.6000061035156,0,0,fence|wall|vegetation|mailbox|pole|utility pole|car|truck
+2626_Waverly_00093.jpg,100,comfortable,162.0,398.3999938964844,0,0,fence|wall|vegetation|mailbox|street light|pole|utility pole|traffic sign (front)
+2626_Waverly_00095.jpg,100,comfortable,39.400001525878906,465.8999938964844,0,0,fence|barrier|wall|vegetation|pole|utility pole
+2626_Waverly_00098.jpg,100,comfortable,11.199999809265137,551.0,0,0,fence|wall|vegetation|pole|utility pole|car
+2626_Waverly_00100.jpg,85,comfortable,54.29999923706055,315.3999938964844,2,0,fence|wall|vegetation|pole|utility pole|car
+2626_Waverly_00101.jpg,69,constrained,49.900001525878906,330.3999938964844,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2626_Waverly_00102.jpg,34,failure,29.299999237060547,187.1999969482422,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2626_Waverly_00105.jpg,100,comfortable,40.79999923706055,340.29998779296875,0,1,fence|guard rail|wall|vegetation|utility pole|traffic sign (front)|car
+2626_Waverly_00106.jpg,100,comfortable,37.20000076293945,335.3999938964844,0,1,fence|vegetation|utility pole|car
+2626_Waverly_00107.jpg,100,comfortable,30.700000762939453,256.3999938964844,0,1,fence|vegetation|utility pole|car
+2626_Waverly_00115.jpg,87,comfortable,57.0,282.70001220703125,1,0,fence|vegetation|car
+2626_Waverly_00116.jpg,87,comfortable,33.400001525878906,246.60000610351562,1,0,fence|vegetation|car
+2626_Waverly_00117.jpg,64,constrained,13.300000190734863,200.89999389648438,1,0,fence|vegetation|car
+2626_Waverly_00118.jpg,48,constrained,36.900001525878906,154.60000610351562,3,0,fence|vegetation|car
+2626_Waverly_00119.jpg,29,failure,32.099998474121094,137.8000030517578,5,0,fence|vegetation|car
+2626_Waverly_00135.jpg,100,comfortable,2.5,259.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|car
+2640_Locksley_00000.jpg,100,comfortable,44.79999923706055,292.5,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2640_Locksley_00001.jpg,100,comfortable,51.0,240.60000610351562,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|car
+2640_Locksley_00020.jpg,100,comfortable,98.0,285.8999938964844,0,0,fence|wall|vegetation|street light|pole|utility pole|traffic sign (front)|trash can
+2640_Locksley_00035.jpg,100,comfortable,37.5,396.20001220703125,0,0,fence|wall|vegetation|street light|pole|utility pole|trash can|car
+2647_Glendale_00030.jpg,100,comfortable,26.899999618530273,694.4000244140625,1,0,fence|vegetation|pole|utility pole|trash can|bicycle|car|motorcycle
+2647_Glendale_00033.jpg,100,comfortable,37.79999923706055,345.70001220703125,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|motorcycle
+2647_Glendale_00035.jpg,98,comfortable,12.100000381469727,376.0,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|bicycle|car|motorcycle
+2647_Glendale_00037.jpg,100,comfortable,17.100000381469727,178.6999969482422,0,0,wall|vegetation|pole|utility pole|traffic sign (front)|car|motorcycle
+2647_Glendale_00040.jpg,100,comfortable,7.699999809265137,198.5,0,0,fence|wall|vegetation|utility pole|trash can|car|motorcycle|truck
+2647_Glendale_00042.jpg,65,constrained,21.600000381469727,181.60000610351562,1,0,fence|wall|vegetation|utility pole|trash can|car|motorcycle|truck
+2647_Glendale_00055.jpg,100,comfortable,6.5,368.79998779296875,0,0,wall|vegetation|pole|utility pole|trash can|car
+2647_Glendale_00056.jpg,100,comfortable,26.5,366.20001220703125,0,0,wall|vegetation|pole|utility pole|trash can|car
+2647_Glendale_00057.jpg,100,comfortable,80.19999694824219,307.0,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2647_Glendale_00076.jpg,100,comfortable,45.099998474121094,338.29998779296875,0,0,fence|vegetation|pole|utility pole
+2653_Locksley_00005.jpg,91,comfortable,13.199999809265137,224.0,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|bus|car|motorcycle|truck
+2653_Locksley_00022.jpg,100,comfortable,35.20000076293945,268.70001220703125,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|car
+2655_Locksley_00010.jpg,100,comfortable,36.900001525878906,266.3999938964844,0,0,fence|wall|vegetation|mailbox|pole|utility pole|trash can|car
+2655_Locksley_00036.jpg,100,comfortable,50.400001525878906,553.5999755859375,0,0,fence|wall|vegetation|pole|car|truck
+2655_Locksley_00037.jpg,100,comfortable,39.20000076293945,546.0999755859375,0,0,fence|wall|vegetation|pole|trash can|car|motorcycle|truck
+2655_Locksley_00038.jpg,100,comfortable,46.79999923706055,410.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2655_Locksley_00039.jpg,100,comfortable,37.29999923706055,232.60000610351562,0,0,fence|wall|vegetation|pole|utility pole|car|truck
+2655_Locksley_00040.jpg,100,comfortable,95.69999694824219,321.0,0,0,fence|wall|vegetation|utility pole|trash can|car
+2655_Locksley_00045.jpg,100,comfortable,71.0999984741211,488.29998779296875,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2655_Locksley_00065.jpg,100,comfortable,28.799999237060547,533.0999755859375,0,0,fence|wall|vegetation|street light|pole|utility pole|car
+2655_Locksley_00085.jpg,100,comfortable,7.400000095367432,240.60000610351562,0,0,fence|wall|vegetation|pole|traffic sign (back)|traffic sign (front)|car
+2655_Locksley_00115.jpg,100,comfortable,57.599998474121094,426.8999938964844,0,0,fence|wall|vegetation|traffic sign (front)|trash can|car
+2655_Locksley_00117.jpg,100,comfortable,31.5,309.29998779296875,0,0,fence|wall|vegetation|pole|traffic sign (front)|bicycle|car
+2655_Locksley_00118.jpg,100,comfortable,40.20000076293945,287.29998779296875,0,0,fence|wall|vegetation|car
+2655_Locksley_00119.jpg,100,comfortable,105.80000305175781,278.6000061035156,0,0,fence|wall|vegetation|pole|traffic sign (front)|trash can|car
+2655_Locksley_00120.jpg,100,comfortable,44.900001525878906,261.3999938964844,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2655_Locksley_00135.jpg,100,comfortable,38.5,233.8000030517578,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2660_Waverly_00000.jpg,100,comfortable,46.29999923706055,268.20001220703125,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2660_Waverly_00003.jpg,90,comfortable,59.29999923706055,210.0,1,0,fence|wall|vegetation|street light|pole|utility pole|trash can|car
+2660_Waverly_00005.jpg,35,failure,12.399999618530273,139.3000030517578,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2660_Waverly_00007.jpg,30,failure,43.099998474121094,145.60000610351562,3,0,fence|vegetation|utility pole|trash can|car
+2660_Waverly_00036.jpg,100,comfortable,32.29999923706055,231.8000030517578,0,0,fence|wall|vegetation|utility pole|trash can|car
+2660_Waverly_00040.jpg,78,comfortable,7.0,254.89999389648438,2,0,fence|wall|vegetation|street light|utility pole|trash can|car
+2660_Waverly_00080.jpg,92,comfortable,16.100000381469727,257.79998779296875,1,0,fence|wall|vegetation|street light|pole|utility pole|trash can|car|motorcycle|truck
+2660_Waverly_00090.jpg,100,comfortable,13.100000381469727,219.89999389648438,0,0,fence|wall|vegetation|utility pole|trash can|car|truck
+2660_Waverly_00100.jpg,100,comfortable,5.400000095367432,292.3999938964844,0,0,fence|wall|vegetation|pole|utility pole|car|truck
+2664_Locksley_00005.jpg,100,comfortable,32.5,330.79998779296875,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car|motorcycle|truck
+2664_Locksley_00008.jpg,100,comfortable,8.699999809265137,395.70001220703125,0,0,fence|guard rail|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|trash can|car|motorcycle|truck
+2664_Locksley_00010.jpg,100,comfortable,16.5,377.29998779296875,0,0,fence|guard rail|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|trash can|car|truck
+2664_Locksley_00015.jpg,100,comfortable,14.899999618530273,642.5,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2664_Locksley_00018.jpg,100,comfortable,3.700000047683716,413.3999938964844,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|truck
+2664_Locksley_00020.jpg,100,comfortable,16.100000381469727,322.5,1,0,fence|guard rail|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|motorcycle
+2664_Locksley_00023.jpg,100,comfortable,5.400000095367432,353.8999938964844,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car|motorcycle|truck
+2664_Locksley_00025.jpg,91,comfortable,21.200000762939453,368.79998779296875,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2664_Locksley_00026.jpg,66,constrained,22.899999618530273,336.5,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2664_Locksley_00027.jpg,27,failure,1.7999999523162842,110.4000015258789,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2664_Locksley_00030.jpg,85,comfortable,2.700000047683716,218.5,2,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2664_Locksley_00033.jpg,80,comfortable,20.399999618530273,215.10000610351562,2,0,fence|guard rail|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2664_Locksley_00035.jpg,100,comfortable,8.5,218.10000610351562,0,0,fence|wall|vegetation|pole|trash can|car|truck
+2664_Locksley_00036.jpg,90,comfortable,4.599999904632568,184.89999389648438,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2664_Locksley_00040.jpg,100,comfortable,29.0,377.79998779296875,0,0,fence|wall|vegetation|pole|utility pole|car
+2664_Locksley_00043.jpg,100,comfortable,11.899999618530273,420.20001220703125,0,0,fence|wall|vegetation|pole|car
+2664_Locksley_00045.jpg,100,comfortable,8.199999809265137,523.2000122070312,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2664_Locksley_00050.jpg,100,comfortable,3.700000047683716,386.79998779296875,0,0,wall|vegetation|pole|utility pole|car|truck
+2664_Locksley_00053.jpg,100,comfortable,15.899999618530273,397.20001220703125,0,0,fence|wall|vegetation|pole|utility pole|car|motorcycle
+2664_Locksley_00056.jpg,100,comfortable,2.9000000953674316,368.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|car
+2664_Locksley_00058.jpg,100,comfortable,11.300000190734863,275.3999938964844,0,0,wall|vegetation|utility pole|car|truck
+2664_Locksley_00080.jpg,100,comfortable,90.19999694824219,444.20001220703125,1,0,wall|vegetation|pole|utility pole|car
+2664_Locksley_00083.jpg,100,comfortable,4.0,401.0,1,0,wall|vegetation|pole|utility pole|car
+2664_Locksley_00085.jpg,88,comfortable,45.900001525878906,358.0,2,0,wall|vegetation|pole|utility pole|car|motorcycle
+2664_Locksley_00086.jpg,67,constrained,23.799999237060547,321.6000061035156,3,0,wall|vegetation|pole|utility pole|car
+2664_Locksley_00087.jpg,68,constrained,15.5,234.5,3,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2664_Locksley_00095.jpg,100,comfortable,400.5,464.8999938964844,0,0,wall|vegetation|car
+2664_Locksley_00100.jpg,100,comfortable,199.5,388.1000061035156,0,0,wall|vegetation|pole|trash can|car
+2664_Locksley_00103.jpg,100,comfortable,218.60000610351562,726.0,0,0,fence|wall|vegetation|pole|trash can
+2664_Locksley_00104.jpg,100,comfortable,189.3000030517578,644.9000244140625,0,0,wall|vegetation|pole|traffic sign (front)|trash can
+2664_Locksley_00105.jpg,100,comfortable,162.39999389648438,265.29998779296875,0,0,fence|wall|vegetation|traffic sign (front)|trash can
+2664_Locksley_00106.jpg,100,comfortable,236.0,298.5,0,0,vegetation|traffic sign (front)|trash can
+2667_Glendale_00000.jpg,100,comfortable,38.599998474121094,317.70001220703125,0,0,fence|wall|vegetation|utility pole|car
+2667_Glendale_00015.jpg,100,comfortable,15.100000381469727,965.2000122070312,0,0,fence|wall|vegetation|pole|utility pole|car
+2667_Glendale_00065.jpg,100,comfortable,28.600000381469727,362.70001220703125,0,0,wall|vegetation|pole|utility pole|traffic sign (front)|car
+2667_Glendale_00070.jpg,100,comfortable,9.600000381469727,392.5,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|trailer
+2670_2698_00010.jpg,100,comfortable,8.600000381469727,247.89999389648438,0,0,fence|wall|vegetation|pole|utility pole|car
+2670_2698_00015.jpg,100,comfortable,5.400000095367432,320.29998779296875,1,0,fence|wall|vegetation|pole|utility pole|car
+2670_2698_00016.jpg,100,comfortable,20.200000762939453,341.29998779296875,0,0,fence|vegetation|pole|car
+2670_2698_00017.jpg,100,comfortable,29.0,338.3999938964844,0,0,vegetation|car
+2670_2698_00019.jpg,100,comfortable,3.4000000953674316,292.6000061035156,2,0,vegetation|car
+2670_2698_00020.jpg,100,comfortable,153.0,335.70001220703125,0,0,vegetation|car
+2677_Locksley_00015.jpg,100,comfortable,32.79999923706055,552.0,0,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car
+2677_Locksley_00025.jpg,100,comfortable,50.70000076293945,268.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2677_Locksley_00035.jpg,100,comfortable,86.9000015258789,324.5,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|car
+2677_Locksley_00040.jpg,100,comfortable,65.80000305175781,328.0,0,0,fence|wall|vegetation|pole|traffic sign (front)|trash can|car
+2677_Locksley_00043.jpg,100,comfortable,88.80000305175781,316.70001220703125,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2677_Locksley_00045.jpg,100,comfortable,6.400000095367432,304.70001220703125,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2677_Locksley_00047.jpg,100,comfortable,108.19999694824219,325.5,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2677_Locksley_00055.jpg,100,comfortable,48.400001525878906,270.70001220703125,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2677_Locksley_00070.jpg,100,comfortable,37.29999923706055,272.3999938964844,0,0,fence|wall|vegetation|fire hydrant|mailbox|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2683_Waverly_00035.jpg,100,comfortable,7.400000095367432,709.9000244140625,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2683_Waverly_00038.jpg,71,comfortable,2.799999952316284,267.8999938964844,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2683_Waverly_00039.jpg,0,failure,9.5,141.39999389648438,2,0,fence|wall|vegetation|utility pole|trash can|car
+2683_Waverly_00040.jpg,100,comfortable,11.0,161.6999969482422,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2683_Waverly_00043.jpg,100,comfortable,19.899999618530273,349.70001220703125,1,0,fence|wall|vegetation|pole|traffic sign (back)|trash can|car
+2683_Waverly_00045.jpg,100,comfortable,16.0,719.9000244140625,0,0,fence|wall|vegetation|trash can|car
+2683_Waverly_00048.jpg,100,comfortable,59.400001525878906,589.9000244140625,0,0,fence|wall|vegetation|trash can|car
+2683_Waverly_00049.jpg,80,comfortable,4.199999809265137,656.2999877929688,2,0,fence|wall|vegetation|pole|trash can|car
+2683_Waverly_00050.jpg,100,comfortable,32.20000076293945,553.5999755859375,0,1,fence|wall|vegetation|trash can|car
+2683_Waverly_00051.jpg,40,constrained,7.400000095367432,452.8999938964844,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2683_Waverly_00052.jpg,0,failure,1.600000023841858,99.80000305175781,2,1,wall|vegetation|utility pole|trash can|car
+2706_Locksley_00005.jpg,100,comfortable,11.300000190734863,349.8999938964844,0,0,fence|wall|vegetation|street light|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|motorcycle
+2706_Locksley_00030.jpg,100,comfortable,32.400001525878906,316.29998779296875,0,0,vegetation|pole|car
+2706_Locksley_00040.jpg,100,comfortable,59.099998474121094,407.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2706_Locksley_00045.jpg,100,comfortable,15.300000190734863,223.3000030517578,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2706_Locksley_00050.jpg,100,comfortable,109.69999694824219,260.1000061035156,0,0,fence|wall|vegetation|street light|pole|utility pole|car
+2706_Locksley_00075.jpg,100,comfortable,49.70000076293945,331.5,0,0,fence|wall|vegetation|pole|utility pole|car
+2706_Waverly_00025.jpg,100,comfortable,50.099998474121094,268.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car
+2706_Waverly_00030.jpg,100,comfortable,45.400001525878906,345.5,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|truck
+2706_Waverly_00050.jpg,96,comfortable,18.600000381469727,241.5,1,0,wall|vegetation|pole|utility pole|car
+2706_Waverly_00051.jpg,100,comfortable,34.599998474121094,249.1999969482422,0,0,wall|vegetation|pole|utility pole|car
+2706_Waverly_00055.jpg,100,comfortable,96.5999984741211,344.5,0,0,fence|wall|vegetation|trash can|car
+2706_Waverly_00070.jpg,100,comfortable,61.29999923706055,319.8999938964844,0,0,fence|wall|vegetation|pole|car
+2715_Glendale_00003.jpg,100,comfortable,29.700000762939453,848.2999877929688,0,0,fence|wall|vegetation|pole|utility pole|trash can|bicycle|car
+2715_Glendale_00005.jpg,100,comfortable,10.699999809265137,762.5,0,0,fence|wall|vegetation|trash can|bicycle|car
+2715_Glendale_00009.jpg,100,comfortable,5.5,575.7000122070312,0,0,fence|wall|vegetation|trash can|car
+2715_Glendale_00011.jpg,100,comfortable,64.0999984741211,423.70001220703125,0,0,vegetation|car
+2715_Glendale_00014.jpg,100,comfortable,11.0,466.0,0,0,wall|vegetation|bench|car
+2715_Glendale_00017.jpg,100,comfortable,45.79999923706055,443.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|bicycle|car|motorcycle
+2715_Glendale_00020.jpg,100,comfortable,11.600000381469727,471.0,0,0,fence|wall|vegetation|trash can|car|motorcycle
+2715_Glendale_00023.jpg,100,comfortable,12.300000190734863,492.70001220703125,0,0,wall|vegetation|car
+2715_Glendale_00025.jpg,100,comfortable,60.599998474121094,505.20001220703125,0,0,wall|vegetation|bicycle|bus|car
+2715_Glendale_00027.jpg,100,comfortable,39.79999923706055,492.20001220703125,0,0,wall|vegetation|utility pole|car
+2715_Glendale_00051.jpg,100,comfortable,25.899999618530273,386.79998779296875,0,0,wall|vegetation|pole|utility pole|car
+2715_Glendale_00065.jpg,100,comfortable,15.300000190734863,315.5,0,0,wall|vegetation|pole|utility pole|car
+2731_Locksley_00000.jpg,100,comfortable,45.29999923706055,317.70001220703125,0,0,fence|wall|vegetation|street light|pole|utility pole|trash can|car
+2731_Locksley_00005.jpg,100,comfortable,13.699999809265137,323.20001220703125,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle|truck
+2731_Locksley_00030.jpg,100,comfortable,26.899999618530273,446.20001220703125,0,0,fence|wall|vegetation|street light|pole|utility pole|car|trailer|truck
+2731_Locksley_00038.jpg,100,comfortable,6.199999809265137,439.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|trash can|car
+2731_Locksley_00060.jpg,100,comfortable,36.0,285.5,1,0,fence|wall|vegetation|fire hydrant|pole|traffic sign (front)|trash can|car
+2731_Locksley_00065.jpg,100,comfortable,6.5,271.0,1,0,fence|wall|vegetation|fire hydrant|pole|traffic sign (front)|trash can|car
+2731_Locksley_00070.jpg,99,comfortable,3.200000047683716,481.5,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2731_Locksley_00073.jpg,89,comfortable,12.600000381469727,709.7999877929688,2,0,wall|vegetation|mailbox|utility pole|traffic sign (front)|trash can|car
+2731_Locksley_00075.jpg,83,comfortable,31.100000381469727,246.89999389648438,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2731_Locksley_00076.jpg,82,comfortable,20.100000381469727,190.1999969482422,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2731_Locksley_00077.jpg,75,comfortable,19.600000381469727,179.8000030517578,2,0,fence|wall|vegetation|mailbox|utility pole|traffic sign (back)|car
+2731_Locksley_00079.jpg,45,constrained,6.5,185.89999389648438,1,0,fence|wall|vegetation|mailbox|utility pole|traffic sign (front)|car
+2731_Locksley_00085.jpg,100,comfortable,14.899999618530273,507.0,1,0,wall|vegetation|pole|utility pole|traffic sign (front)|car
+2731_Locksley_00100.jpg,88,comfortable,5.5,188.39999389648438,1,0,wall|vegetation|pole|utility pole|car
+2736_Locksley_00030.jpg,100,comfortable,4.400000095367432,441.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2740_Waverly_00030.jpg,100,comfortable,59.79999923706055,392.79998779296875,0,0,fence|wall|vegetation|pole|utility pole|car
+2745_Locksley_00045.jpg,100,comfortable,52.099998474121094,415.20001220703125,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2748_2756_00000.jpg,96,comfortable,8.199999809265137,241.5,0,0,fence|guard rail|wall|vegetation|street light|pole|traffic sign (back)|traffic sign (front)|car
+2748_2756_00005.jpg,100,comfortable,19.399999618530273,251.6999969482422,0,0,fence|wall|vegetation|mailbox|pole|utility pole|traffic sign (front)|car|motorcycle
+2748_2756_00025.jpg,100,comfortable,131.0,353.6000061035156,0,0,fence|vegetation|pole|car
+2748_2756_00050.jpg,100,comfortable,9.300000190734863,720.0,0,0,fence|vegetation|pole|utility pole|traffic sign (back)|car
+2748_2756_00051.jpg,100,comfortable,90.5999984741211,345.20001220703125,0,0,fence|vegetation|pole|utility pole|car
+2748_2756_00053.jpg,100,comfortable,15.199999809265137,260.5,0,0,fence|wall|vegetation|pole|trash can|car
+2748_2756_00054.jpg,100,comfortable,185.8000030517578,386.3999938964844,0,0,fence|vegetation|pole|utility pole|car
+2748_2756_00065.jpg,100,comfortable,358.0,462.3999938964844,0,0,vegetation|pole|utility pole|car
+2748_2756_00066.jpg,100,comfortable,306.1000061035156,443.29998779296875,0,0,fence|vegetation|pole|bicycle|car
+2748_2756_00067.jpg,100,comfortable,417.1000061035156,475.5,0,0,fence|vegetation|pole|car
+2749_Waverly_00005.jpg,100,comfortable,2.5,422.70001220703125,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2749_Waverly_00010.jpg,100,comfortable,5.699999809265137,301.6000061035156,0,0,fence|wall|vegetation|pole|utility pole|car
+2749_Waverly_00011.jpg,100,comfortable,32.70000076293945,353.70001220703125,0,0,fence|wall|vegetation|pole|traffic sign (back)|car
+2749_Waverly_00013.jpg,100,comfortable,37.599998474121094,649.0,0,0,fence|wall|vegetation|pole|utility pole|car
+2749_Waverly_00015.jpg,100,comfortable,27.899999618530273,616.5,0,0,fence|wall|vegetation|pole|car
+2749_Waverly_00017.jpg,100,comfortable,2.4000000953674316,406.5,1,0,fence|wall|vegetation|pole|utility pole|car
+2749_Waverly_00018.jpg,92,comfortable,2.0999999046325684,292.5,1,0,fence|wall|vegetation|pole|utility pole|bicycle|car|truck
+2749_Waverly_00037.jpg,100,comfortable,38.0,578.0,0,0,fence|wall|vegetation|mailbox|pole|utility pole|car
+2749_Waverly_00038.jpg,100,comfortable,4.5,510.0,0,0,fence|wall|vegetation|mailbox|pole|utility pole|car
+2749_Waverly_00040.jpg,100,comfortable,3.799999952316284,224.39999389648438,1,0,fence|wall|vegetation|fire hydrant|street light|pole|utility pole|car
+2749_Waverly_00080.jpg,100,comfortable,100.9000015258789,336.8999938964844,0,0,wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car|motorcycle
+2749_Waverly_00085.jpg,100,comfortable,31.200000762939453,313.20001220703125,0,0,wall|vegetation|utility pole|trash can|car
+2749_Waverly_00090.jpg,100,comfortable,6.599999904632568,332.3999938964844,0,0,fence|wall|vegetation|street light|pole|utility pole|trash can|car
+2749_Waverly_00125.jpg,100,comfortable,40.5,589.7000122070312,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2749_Waverly_00128.jpg,87,comfortable,10.0,613.0999755859375,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2749_Waverly_00130.jpg,89,comfortable,2.4000000953674316,388.5,1,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2749_Waverly_00140.jpg,100,comfortable,6.5,181.60000610351562,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2749_Waverly_00150.jpg,83,comfortable,28.100000381469727,220.89999389648438,1,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2749_Waverly_00155.jpg,100,comfortable,54.599998474121094,352.29998779296875,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2749_Waverly_00178.jpg,85,comfortable,9.199999809265137,320.70001220703125,2,0,fence|wall|vegetation|utility pole|trash can|car|motorcycle
+2749_Waverly_00179.jpg,86,comfortable,3.200000047683716,250.1999969482422,1,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2749_Waverly_00180.jpg,37,failure,6.0,150.6999969482422,3,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2749_Waverly_00181.jpg,0,failure,11.399999618530273,130.8000030517578,2,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2749_Waverly_00182.jpg,0,failure,32.0,134.10000610351562,4,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2749_Waverly_00183.jpg,36,failure,46.900001525878906,147.60000610351562,2,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2755_Waverly_00020.jpg,100,comfortable,9.300000190734863,264.3999938964844,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car|motorcycle
+2755_Waverly_00023.jpg,100,comfortable,22.899999618530273,294.20001220703125,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|car
+2755_Waverly_00024.jpg,100,comfortable,12.300000190734863,290.29998779296875,0,1,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2755_Waverly_00025.jpg,82,comfortable,22.0,264.1000061035156,1,1,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2755_Waverly_00027.jpg,62,constrained,0.8999999761581421,346.70001220703125,1,1,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)
+2758_Auburn_00015.jpg,100,comfortable,25.299999237060547,355.6000061035156,0,0,fence|vegetation|street light|pole|trash can|car
+2758_Auburn_00018.jpg,100,comfortable,186.5,299.6000061035156,0,0,fence|vegetation|pole|car
+2758_Auburn_00025.jpg,100,comfortable,45.20000076293945,334.20001220703125,0,0,fence|wall|vegetation|pole|traffic sign (front)|car|truck
+2758_Auburn_00027.jpg,92,comfortable,49.5,397.3999938964844,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car|truck
+2758_Auburn_00030.jpg,85,comfortable,62.599998474121094,598.7999877929688,1,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|bicycle|car|truck
+2758_Auburn_00033.jpg,84,comfortable,27.0,489.5,1,1,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car|truck
+2758_Auburn_00034.jpg,73,comfortable,16.700000762939453,371.6000061035156,2,1,fence|wall|vegetation|pole|traffic sign (front)|trash can|bicycle|car|truck
+2758_Auburn_00035.jpg,74,comfortable,4.0,340.6000061035156,1,1,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2758_Auburn_00036.jpg,55,constrained,17.5,280.29998779296875,1,0,fence|barrier|wall|vegetation|pole|traffic sign (back)|traffic sign (front)|trash can|car|truck
+2759_Rowena_00025.jpg,100,comfortable,81.69999694824219,330.8999938964844,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|bus|car|truck
+2800_Glendale_00000.jpg,100,comfortable,85.9000015258789,594.7999877929688,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2800_Glendale_00009.jpg,100,comfortable,101.0,285.29998779296875,0,0,fence|wall|vegetation|bench|pole|utility pole|trash can|car
+2800_Glendale_00011.jpg,100,comfortable,56.599998474121094,273.79998779296875,0,0,vegetation|pole|car
+2800_Glendale_00013.jpg,100,comfortable,37.20000076293945,224.89999389648438,0,0,wall|vegetation|street light|pole|utility pole|car
+2800_Glendale_00015.jpg,100,comfortable,15.199999809265137,200.6999969482422,0,0,fence|wall|vegetation|pole|utility pole|car
+2800_Glendale_00016.jpg,39,failure,9.800000190734863,152.3000030517578,2,1,wall|vegetation|pole|utility pole|car
+2800_Glendale_00017.jpg,65,constrained,45.0,356.0,2,0,fence|wall|vegetation|pole|car
+2800_Glendale_00020.jpg,100,comfortable,61.5,699.5999755859375,0,0,fence|wall|vegetation|pole|traffic sign (front)|car
+2800_Waverly_00000.jpg,100,comfortable,10.800000190734863,329.79998779296875,0,0,fence|wall|vegetation|mailbox|pole|utility pole|car|motorcycle
+2800_Waverly_00007.jpg,100,comfortable,27.600000381469727,306.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|car
+2800_Waverly_00010.jpg,100,comfortable,63.400001525878906,324.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|car|motorcycle
+2800_Waverly_00012.jpg,100,comfortable,9.800000190734863,314.70001220703125,0,0,fence|wall|vegetation|pole|utility pole|trash can|car|motorcycle
+2800_Waverly_00015.jpg,100,comfortable,55.70000076293945,356.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|car|motorcycle
+2800_Waverly_00025.jpg,100,comfortable,8.100000381469727,331.29998779296875,0,0,fence|wall|vegetation|fire hydrant|traffic sign (front)|car|motorcycle
+2800_Waverly_00030.jpg,100,comfortable,13.100000381469727,337.8999938964844,0,0,fence|wall|vegetation|car|motorcycle
+2800_Waverly_00038.jpg,100,comfortable,23.100000381469727,295.29998779296875,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2800_Waverly_00055.jpg,100,comfortable,4.400000095367432,305.1000061035156,0,0,fence|wall|vegetation|utility pole|traffic sign (front)|car
+2805_Glendale_00005.jpg,100,comfortable,38.29999923706055,344.6000061035156,0,0,barrier|wall|vegetation|pole|utility pole|traffic sign (front)|bus|car
+2810_Glendale_00015.jpg,100,comfortable,15.300000190734863,780.2000122070312,0,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)
+2810_Glendale_00070.jpg,100,comfortable,6.699999809265137,685.0999755859375,0,0,fence|wall|vegetation|pole|car
+2810_Glendale_00073.jpg,100,comfortable,219.10000610351562,487.8999938964844,0,0,fence|wall|vegetation|car
+2810_Glendale_00075.jpg,100,comfortable,30.700000762939453,412.8999938964844,0,0,fence|wall|vegetation|pole|utility pole|car
+2810_Glendale_00115.jpg,100,comfortable,35.400001525878906,709.2999877929688,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2811_Waverly_00000.jpg,100,comfortable,21.399999618530273,409.5,0,0,fence|wall|vegetation|car
+2811_Waverly_00015.jpg,100,comfortable,5.400000095367432,333.20001220703125,3,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00018.jpg,81,comfortable,4.099999904632568,305.29998779296875,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00019.jpg,97,comfortable,4.199999809265137,307.29998779296875,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00020.jpg,0,failure,2.4000000953674316,113.30000305175781,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00021.jpg,27,failure,4.300000190734863,137.1999969482422,5,0,fence|guard rail|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00035.jpg,0,failure,13.100000381469727,138.6999969482422,3,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car|truck
+2811_Waverly_00050.jpg,0,failure,28.5,131.0,2,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|car|truck
+2811_Waverly_00053.jpg,3,failure,11.100000381469727,137.8000030517578,2,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2811_Waverly_00055.jpg,20,failure,11.899999618530273,143.89999389648438,3,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2811_Waverly_00058.jpg,29,failure,23.200000762939453,136.1999969482422,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2811_Waverly_00090.jpg,53,constrained,14.699999809265137,155.3000030517578,5,0,vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car|motorcycle|truck
+2811_Waverly_00093.jpg,35,failure,13.699999809265137,144.5,3,0,fence|guard rail|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car|truck
+2814_Glendale_00000.jpg,100,comfortable,180.60000610351562,935.7999877929688,0,0,fence|wall|vegetation|car
+2814_Glendale_00002.jpg,100,comfortable,67.19999694824219,737.2000122070312,0,0,fence|vegetation|utility pole|car
+2814_Glendale_00003.jpg,100,comfortable,38.79999923706055,446.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|car
+2814_Glendale_00004.jpg,100,comfortable,140.8000030517578,429.20001220703125,0,0,fence|vegetation|pole|car
+2814_Glendale_00015.jpg,100,comfortable,34.20000076293945,401.70001220703125,0,0,fence|wall|vegetation|car
+2814_Glendale_00018.jpg,100,comfortable,13.5,391.1000061035156,0,0,fence|vegetation|pole
+2814_Glendale_00020.jpg,100,comfortable,13.199999809265137,252.8000030517578,0,0,fence|vegetation|pole|utility pole|traffic sign (front)|car
+2824_Waverly_00015.jpg,100,comfortable,11.899999618530273,372.79998779296875,1,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (front)|car
+2824_Waverly_00018.jpg,91,comfortable,11.899999618530273,312.8999938964844,1,0,fence|wall|vegetation|fire hydrant|mailbox|pole|utility pole|car
+2824_Waverly_00020.jpg,85,comfortable,6.199999809265137,256.3999938964844,2,0,fence|wall|vegetation|fire hydrant|mailbox|pole|utility pole|car
+2824_Waverly_00080.jpg,100,comfortable,83.0,395.70001220703125,0,0,wall|vegetation|pole|utility pole|traffic sign (front)|car
+2824_Waverly_00090.jpg,100,comfortable,26.700000762939453,365.0,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|truck
+2827_Waverly_00020.jpg,72,comfortable,9.0,229.8000030517578,2,0,fence|wall|vegetation|car
+2827_Waverly_00022.jpg,79,comfortable,2.5999999046325684,260.5,2,0,fence|wall|vegetation|traffic sign (back)|car
+2827_Waverly_00040.jpg,89,comfortable,6.0,237.3000030517578,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2827_Waverly_00055.jpg,100,comfortable,17.5,275.20001220703125,0,0,fence|barrier|wall|vegetation|street light|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2838_Avenel_00003.jpg,100,comfortable,49.79999923706055,423.6000061035156,0,0,fence|vegetation|pole|utility pole|car
+2838_Avenel_00005.jpg,100,comfortable,44.5,427.1000061035156,0,0,fence|wall|vegetation|pole|utility pole|bus|car
+2838_Avenel_00012.jpg,100,comfortable,14.100000381469727,658.0,0,0,fence|wall|vegetation|pole|utility pole|car|motorcycle
+2838_Avenel_00025.jpg,100,comfortable,28.100000381469727,437.79998779296875,0,0,wall|vegetation|car
+2838_Avenel_00028.jpg,100,comfortable,3.5,282.8999938964844,2,0,fence|wall|vegetation|car
+2838_Avenel_00030.jpg,100,comfortable,117.5999984741211,450.20001220703125,0,0,rail track|vegetation|pole|car
+2838_Avenel_00033.jpg,100,comfortable,28.100000381469727,476.5,0,0,fence|wall|vegetation|pole|utility pole|trash can|car
+2838_Avenel_00035.jpg,100,comfortable,14.300000190734863,541.2999877929688,0,0,wall|vegetation|pole|utility pole|trash can|car
+2853_Glendale_00035.jpg,100,comfortable,9.5,209.0,0,0,fence|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|car
+2853_Glendale_00036.jpg,100,comfortable,13.899999618530273,218.39999389648438,2,0,wall|rail track|vegetation|pole|utility pole|traffic sign (front)|car
+2853_Glendale_00038.jpg,100,comfortable,4.599999904632568,244.8000030517578,1,0,vegetation|pole|utility pole|car
+2853_Glendale_00054.jpg,100,comfortable,27.200000762939453,220.1999969482422,0,0,fence|guard rail|barrier|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2853_Glendale_00060.jpg,100,comfortable,32.79999923706055,248.5,0,0,fence|guard rail|barrier|wall|vegetation|street light|pole|utility pole|traffic sign (front)|car
+2853_Glendale_00070.jpg,100,comfortable,31.100000381469727,272.3999938964844,0,0,fence|guard rail|barrier|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|bicycle|car
+2869_Glendale_00030.jpg,100,comfortable,5.400000095367432,727.5,0,0,fence|barrier|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (back)|traffic sign (front)|car|truck
+2869_Glendale_00050.jpg,100,comfortable,2.9000000953674316,728.0,0,0,fence|guard rail|barrier|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car
+2901_Waverly_00000.jpg,100,comfortable,40.599998474121094,356.20001220703125,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car|motorcycle|truck
+2901_Waverly_00003.jpg,100,comfortable,6.0,573.7999877929688,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|trailer|truck
+2901_Waverly_00005.jpg,100,comfortable,21.600000381469727,561.7000122070312,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|truck
+2901_Waverly_00007.jpg,87,comfortable,4.900000095367432,403.79998779296875,1,0,fence|wall|vegetation|pole|traffic sign (back)|traffic sign (front)|trash can|car|motorcycle
+2901_Waverly_00009.jpg,78,comfortable,7.599999904632568,365.0,2,0,vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car|motorcycle|trailer
+2901_Waverly_00010.jpg,69,constrained,2.0,355.79998779296875,2,0,wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|trash can|car
+2901_Waverly_00025.jpg,95,comfortable,50.79999923706055,319.79998779296875,2,0,fence|wall|vegetation|mailbox|street light|pole|utility pole|traffic sign (back)|trash can|car
+2901_Waverly_00028.jpg,94,comfortable,24.100000381469727,252.60000610351562,1,0,fence|wall|vegetation|pole|utility pole|traffic sign (back)|traffic sign (front)|car
+2901_Waverly_00030.jpg,81,comfortable,48.20000076293945,185.6999969482422,1,0,fence|wall|vegetation|pole|utility pole|car
+2901_Waverly_00040.jpg,100,comfortable,17.0,253.8000030517578,0,0,vegetation|pole|utility pole|car
+2901_Waverly_00048.jpg,100,comfortable,42.5,198.89999389648438,0,0,fence|wall|vegetation|pole|utility pole|traffic sign (front)|trash can|car|motorcycle
+2901_Waverly_00050.jpg,100,comfortable,76.4000015258789,199.8000030517578,0,0,fence|wall|vegetation|fire hydrant|pole|utility pole|car
+2901_Waverly_00055.jpg,100,comfortable,95.30000305175781,225.6999969482422,0,0,fence|wall|vegetation|mailbox|pole|utility pole|trash can|car
+2901_Waverly_00060.jpg,100,comfortable,42.599998474121094,334.0,0,0,fence|wall|vegetation|trash can|car|motorcycle
+2901_Waverly_00065.jpg,100,comfortable,15.0,257.0,0,0,fence|wall|vegetation|trash can|bicycle|car
