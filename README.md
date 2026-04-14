@@ -4,9 +4,19 @@
 
 A two-stage computer vision pipeline that (1) segments sidewalk boundaries using a pretrained foundation model, then (2) computes perspective-corrected corridor width and detects blockages using monocular depth estimation — producing geo-referenced passability maps with ADA-compliant measurements. Built at the intersection of landscape architecture, machine learning, and urban accessibility.
 
+<<<<<<< HEAD
 🗺️ **[Live Demo — Sidewalk Passability Map](https://nandiyang.github.io/robot-navigable-city/data/processed/round2_labeling/passability_map.html)** (Silver Lake, Los Angeles)
+=======
+![Sidewalk Passability Map](assets/website.png)
+
+🗺️ **[Live Demo — Sidewalk Passability Map](https://nandiyang.github.io/robot-navigable-city/data/processed/batch_2/passability_map.html)** (Silver Lake, Los Angeles)
+>>>>>>> 2858b63 (Update README and add assets folder)
 
 🗺️ **[Round 1 Demo — Obstacle Detection Map](https://nandiyang.github.io/robot-navigable-city/data/processed/demo_combined.html)**
+
+📊 **[40 Comparison Pairs — Raw vs. Detection](https://drive.google.com/drive/folders/1Yoeld__oZ3oA16SBb664ld9lMIYU65P1?usp=sharing)**
+
+🎞️ **[360-Frame Detection GIF](https://drive.google.com/drive/folders/1K7c6ybQd2IwH5GGtvu_hgndX6clv5TO0?usp=sharing)**
 
 ---
 
@@ -64,7 +74,7 @@ build_passability_map.py   — generate interactive HTML passability map
 ## Results — Round 2 (Two-Stage Pipeline)
 
 * **Location:** Silver Lake / Atwater Village, Los Angeles
-* **Sessions:** 33 walking routes
+* **Sessions:** 30 walking sessions
 * **Frames:** 361 analyzed (proportionally sampled across passability classes)
 * **Stage 1 Model:** Mask2Former (Swin-L backbone, Mapillary Vistas pretrained)
 * **Depth Model:** Depth Anything V2 (Metric Outdoor)
@@ -78,17 +88,7 @@ Key findings:
 
 ## Results — Round 1 (Baseline)
 
-* **Model:** YOLOv8s, 100 epochs
-* **Classes:** obstacle, path_discontinuity
-
-| Metric | Value |
-|---|---|
-| mAP50 | 0.960 |
-| mAP50-95 | 0.867 |
-| Precision | 0.875 |
-| Recall | 0.560 |
-
-Round 1 demonstrated that end-to-end detection works for obstacles but struggles with passability assessment. A subsequent attempt using YOLOv11-seg for direct traversability segmentation (comfortable/constrained/failure classes) confirmed that a single model cannot simultaneously learn sidewalk geometry and surface quality — motivating the two-stage decomposition in Round 2.
+An initial prototype using YOLOv8 for end-to-end obstacle detection demonstrated strong detection performance but struggled with passability assessment. A subsequent attempt using YOLOv11-seg for direct traversability segmentation confirmed that a single model cannot simultaneously learn sidewalk geometry and surface quality — motivating the two-stage decomposition in Round 2.
 
 ---
 
@@ -180,9 +180,7 @@ open data/processed/round2_labeling/passability_map.html
 
 ## Research Context
 
-This is an independent research project exploring the intersection of autonomous robot navigation and urban accessibility design. The work is informed by ongoing conversations with Prof. Bolei Zhou (UCLA) and his MetaUrban research group, whose work on embodied AI in urban environments is closely related.
-
-A panel proposal connecting this research to landscape architecture practice has been submitted to the ASLA Annual Conference (result pending April 2026).
+This demo was developed independently as a proof-of-concept for scalable sidewalk accessibility assessment using computer vision. Beginning April 2026, the project has expanded into a research collaboration with [Prof. Bolei Zhou](https://boleizhou.github.io/) (UCLA VAIL Lab) and [Liu Liu](https://dusp.mit.edu/people/liu-liu) (MIT Urban Science). The collaboration aims to leverage advanced 2D and 3D segmentation models to assess and improve urban infrastructure at scale.
 
 **Related work:**
 
