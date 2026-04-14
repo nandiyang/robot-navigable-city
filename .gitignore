@@ -31,3 +31,6 @@ Thumbs.db
 ~
 ~$*
 ~$*
+archive/
+data/UCLA&Coco/
+.DS_Store
